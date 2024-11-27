@@ -1,2 +1,3 @@
 # ldeon-tabnews
-Aprendendo um pouco mais! 
+
+Aprendendo um pouco mais!
