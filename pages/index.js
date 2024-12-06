@@ -1,31 +1,18 @@
-function Home() {
+import Head from "next/head";
+
+export default function Home() {
     return (
         <>
-            <head>
-                <title>LDEON TabNews!</title>
-            </head>
-            <body>
-                <h2>
-                    Uma página qualquer! AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-                </h2>
-                <h1>
-                    Aqui vai um texto qualquer, será que consigo fazer um botão?
-                </h1>
+            <Head>
+                <title>AAAAAAAAAAAAAAAAAAAA</title>
+            </Head>
+            <main>
+                <h2>Uma página qualquer!</h2>
+                <h1>AQUI SO TEM ESSE BOTAO.....</h1>
                 <button onClick={() => alert("Botão clicado!")}>
                     Clique aqui
                 </button>
-                <img
-                    src="bombomzinho.jpeg"
-                    alt="Bombomzinho"
-                    style={{
-                        width: "300px",
-                        height: "auto",
-                        marginTop: "20px",
-                    }}
-                />
-            </body>
+            </main>
         </>
     );
 }
-
-export default Home;
