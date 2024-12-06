@@ -14,6 +14,15 @@ function Home() {
                 <button onClick={() => alert("Botão clicado!")}>
                     Clique aqui
                 </button>
+                <img
+                    src="bombomzinho.jpeg"
+                    alt="Bombomzinho"
+                    style={{
+                        width: "300px",
+                        height: "auto",
+                        marginTop: "20px",
+                    }}
+                />
             </body>
         </>
     );
