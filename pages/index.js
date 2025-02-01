@@ -12,6 +12,15 @@ export default function Home() {
                 <button onClick={() => alert("Botão clicado!")}>
                     Clique aqui
                 </button>
+
+                <iframe
+                    title="2"
+                    width="600"
+                    height="373.5"
+                    src="https://app.powerbi.com/view?r=eyJrIjoiMTEzNWFjMGUtMGFlNS00MDY1LWEyMjktMzFjY2UwNzBlNThjIiwidCI6IjI3NzZjMjkzLTZlYmItNDZjZS05Mjk5LWUwYWM1Y2YzZGRkMCJ9"
+                    frameborder="0"
+                    allowfullscreen="true"
+                ></iframe>
             </main>
         </>
     );
